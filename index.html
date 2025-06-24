@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
 
     <style>
-    * {
+    *{
       border: 1px red dashed; 
+    }
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .avatar-image{
+      height: 128px;
+      width: 128px;
+      border-radius: 128px;
+      object-fit: cover;
+      border: 4px maroon solid;
+    }
+    .thumbnail{
+      height: 48px;
+      width: 48px;
+      border-radius: 48px;
+      object-fit: cover;
     }
     </style>
 
@@ -13,7 +30,7 @@
   <body>
     <div class="main-container"> 
       <div class="image-row"> 
-        <img src="thumbnails/Profile Pic.png">
+        <img class="avatar-image" src="thumbnails/Profile Pic.png">
       </div>
       <div class="name-row"> Gauri Khanolkar </div>
       <div class="social-icons-row"> 
@@ -23,25 +40,25 @@
       </div>
       <div class="links-row">
         <div class="item">
-          <img src="thumbnails/Apple-research-paper.png">
+          <img class="thumbnail" src="thumbnails/Apple-research-paper.png">
           <a href="https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf" target="_blank">
             Latest Research in Artificial Intelligence
           </a>
         </div>
         <div class="item">
-          <img src="thumbnails/reasons-to-use-stirling-pdf-1.png">
+          <img class="thumbnail" src="thumbnails/reasons-to-use-stirling-pdf-1.png">
           <a href="https://www.xda-developers.com/started-editing-all-pdf-files-with-this-free-self-hosted-tool/" target="_blank">
             Self Hosted PDF editor article
           </a>
         </div>
         <div class="item">
-          <img src="thumbnails/hummus.png">
+          <img class="thumbnail" src="thumbnails/hummus.png">
           <a href="https://youtube.com/shorts/81RqeWaPels?si=weIi4W5yPKgQ74o8" target="_blank">
             Hummus recipe
           </a>
         </div>
         <div class="item">
-          <img src="thumbnails/rainy-day-paiting.png">
+          <img class="thumbnail" src="thumbnails/rainy-day-paiting.png">
           <a href="https://youtu.be/BfeHTk1Jsm4?si=oiVQ1UKk8GyatEFs" target="_blank">
             Rainy Day Acrylic painting tutorial
           </a>
