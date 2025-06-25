@@ -2,16 +2,21 @@
 <html>
   <head>
     <meta charset="UTF-8">
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
     <style>
     *{
-      border: 1px red dashed; 
+      /* border: 1px red dashed;  */
       color: beige;
+    }
+    a{
+      text-decoration: none;
     }
     html{
       min-height: 100%;
     }
     body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       min-height: 100%;
       padding-top: 40px;
       padding-bottom: 40px;
@@ -32,6 +37,37 @@
     }
     .item{
       background-color: rgba(100, 6, 21, 0.5);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      border-radius: 1000px;
+      padding: 5px;
+      padding-right: 53px;
+      box-shadow: 4px 4px 10px 0px rgba(122,32,122,0.5);
+    }
+    .main-container{
+      max-width: 640px;
+      margin: auto;
+    }
+    .image-row{
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .name-row{
+      margin-bottom: 30px;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 24px;
+      font-weight: 900;
+    }
+    .social-icons-row{
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .link-text{
+      text-align: center;
+      flex-grow: 1;
     }
     </style>
 
@@ -43,32 +79,32 @@
       </div>
       <div class="name-row"> Gauri Khanolkar </div>
       <div class="social-icons-row"> 
-        <a href="https://github.com/Gauri-Khanolkar1" target="_blank"> Github </a>
-        <a href="https://www.linkedin.com/in/Gauri-Khanolkar/" target="_blank"> LinkedIn </a>
-        <a href="https://www.youtube.com/@gaurikhanolkar7740" target="_blank"> Youtube </a>          
+        <a href="https://github.com/Gauri-Khanolkar1" target="_blank"> <i class="fa-brands fa-github-alt"></i> </a>
+        <a href="https://www.linkedin.com/in/Gauri-Khanolkar/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+        <a href="https://www.youtube.com/@gaurikhanolkar7740" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>          
       </div>
       <div class="links-row">
         <div class="item">
           <img class="thumbnail" src="thumbnails/Apple-research-paper.png">
-          <a href="https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf" target="_blank">
+          <a class="link-text" ref="https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf" target="_blank">
             Latest Research in Artificial Intelligence
           </a>
         </div>
         <div class="item">
           <img class="thumbnail" src="thumbnails/reasons-to-use-stirling-pdf-1.png">
-          <a href="https://www.xda-developers.com/started-editing-all-pdf-files-with-this-free-self-hosted-tool/" target="_blank">
+          <a class="link-text" href="https://www.xda-developers.com/started-editing-all-pdf-files-with-this-free-self-hosted-tool/" target="_blank">
             Self Hosted PDF editor article
           </a>
         </div>
         <div class="item">
           <img class="thumbnail" src="thumbnails/hummus.png">
-          <a href="https://youtube.com/shorts/81RqeWaPels?si=weIi4W5yPKgQ74o8" target="_blank">
+          <a class="link-text" href="https://youtube.com/shorts/81RqeWaPels?si=weIi4W5yPKgQ74o8" target="_blank">
             Hummus recipe
           </a>
         </div>
         <div class="item">
           <img class="thumbnail" src="thumbnails/rainy-day-paiting.png">
-          <a href="https://youtu.be/BfeHTk1Jsm4?si=oiVQ1UKk8GyatEFs" target="_blank">
+          <a class="link-text" href="https://youtu.be/BfeHTk1Jsm4?si=oiVQ1UKk8GyatEFs" target="_blank">
             Rainy Day Acrylic painting tutorial
           </a>
         </div>
